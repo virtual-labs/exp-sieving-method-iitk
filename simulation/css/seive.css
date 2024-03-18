@@ -1,0 +1,51 @@
+.seives {
+  margin: 0px 20px;
+}
+
+.seive3d {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.net {
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+.seive {
+  position: relative;
+}
+
+.seive_num {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+td {
+  border: 2px solid #c4c4c4;
+  margin: 0px;
+  padding: 0px;
+}
+
+.net {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+
+.seive3dimg {
+  position: absolute;
+  top: 0px;
+}
