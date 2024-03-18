@@ -1,0 +1,54 @@
+.weighing_balance {
+  position: relative;
+  margin-bottom: 40px;
+  /* border: 2px solid black; */
+}
+
+.display {
+  position: absolute;
+  top: 57%;
+  left: 25%;
+  background-color: #5dbf52;
+  height: 33%;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 90px;
+}
+
+.display_off {
+  background-color: darkgreen;
+  color: darkgreen;
+  pointer-events: none;
+}
+
+.weigh_area {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: grey;
+  top: 10%;
+  left: 40%;
+}
+
+.btn {
+  height: 48px;
+  width: 48px;
+  background-color: #cfcfcf;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 20%;
+  border: 2px solid grey;
+  font-weight: bold;
+  color: black;
+}
+
+.btn1 {
+  left: 13%;
+}
+
+.btn2 {
+  right: 13%;
+}

@@ -1,0 +1,109 @@
+.shaker_main {
+  margin: 30px;
+  position: relative;
+}
+
+.shaker {
+  /* margin: 10px; */
+  height: 280px;
+  width: 140px;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  animation: var(--shake_stand);
+}
+
+.seive_container {
+  width: 200px;
+  height: 395px;
+  position: absolute;
+  top: 55px;
+  left: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seive_stand {
+  position: absolute;
+  left: 380px;
+  top: 40px;
+  /* animation: up_down 0.5s ease-in-out infinite; */
+  /* animation: var(--shake_stand); */
+  /* animation-play-state: paused; */
+}
+
+.tapper {
+  position: absolute;
+  left: 120px;
+  top: 15px;
+  background-color: #3d3d3d;
+  width: 450px;
+  border-radius: 20px;
+  height: 15px;
+  transform-origin: left bottom;
+  transform: rotate(0deg);
+  z-index: -100;
+  /* animation: tapper 1.2s ease-in-out infinite; */
+  animation: var(--shake_tapper);
+}
+
+.psuedo_div {
+  background-color: #0092e4;
+  height: 14px;
+  width: 20px;
+  position: absolute;
+  left: 380px;
+  top: 50px;
+  z-index: 200;
+}
+
+.power_btn {
+  position: absolute;
+  top: 460px;
+  left: 110px;
+  width: 90px;
+  height: 90px;
+}
+
+/* @keyframes up_down { */
+/*   0% { */
+/*     left: 380px; */
+/*   } */
+/*   50% { */
+/*     left: 400px; */
+/*   } */
+/*   100% { */
+/*     left: 380px; */
+/*   } */
+/* } */
+@keyframes up_down {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 20px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes tapper {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(2.5deg);
+  }
+  90% {
+    tranform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
