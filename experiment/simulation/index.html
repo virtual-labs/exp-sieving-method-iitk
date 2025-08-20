@@ -1,144 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Seive Analysis</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/weight.css" rel="stylesheet" />
-    <link href="css/shaker.css" rel="stylesheet" />
-    <link href="css/seive.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="main_wrapper">
-      <div class="main_stand">
-        <div class="shaker_main">
-          <img src="./images/shaker.png" />
-          <div class="tapper"></div>
-          <div class="psuedo_div"></div>
-          <div class="shaker">
-            <div class="seive_container">
-              <div class="seives">
-                <div class="seive seive1">
-                  <div class="seive_num">No. 10</div>
-                  <img
-                    src="./images/seive_flat.png"
-                    alt="Your browser doesn't support this image"
-                  />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Size Distribution using Sieveing method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container for pharmacy project to wrap all sections -->
+     <div class="container">
+        
+            <!-- Simulation start pop-up -->
+             
+            <div class="Simulation-start" id="Simulation-start">
+                <div class="start-card">
+        
+                    <h1>Particle Size Distribution Simulation </h1>
+                    <p>The experiment is ready to proceed to determine the particle size and particle size distribution by using the sieving method.
+                         This experiment will help you understand how different sized particles are separated and analyzed using standard sieves.</p>
+                   
+                    <h2>Equipment Required</h2>
+                    <ul>
+                        <li>1. Sieve shaker machine</li>
+                        <li>2. Sieves</li>
+                        <li>3. Petridish</li>
+                        <li>4. Sample container</li>
+                        <li>5. Spatulla</li>
+                    </ul>
+                    <button class="start-btn" id="start-experiment">Start</button>
                 </div>
-                <div class="seive seive2">
-                  <div class="seive_num">No. 20</div>
-                  <img
-                    src="./images/seive_flat.png"
-                    alt="Your browser doesn't support this image"
-                  />
-                </div>
-                <div class="seive seive3">
-                  <div class="seive_num">No. 30</div>
-                  <img
-                    src="./images/seive_flat.png"
-                    alt="Your browser doesn't support this image"
-                  />
-                </div>
-                <div class="seive seive4">
-                  <div class="seive_num">No. 50</div>
-                  <img
-                    src="./images/seive_flat.png"
-                    alt="Your browser doesn't support this image"
-                  />
-                </div>
-                <div class="seive seive5">
-                  <div class="seive_num">No. 100</div>
-                  <img
-                    src="./images/seive_flat.png"
-                    alt="Your browser doesn't support this image"
-                  />
-                </div>
-                <div class="seive seive6">
-                  <div class="seive_num">No. 120</div>
-                  <img
-                    src="./images/seive_flat.png"
-                    alt="Your browser doesn't support this image"
-                  />
-                </div>
-              </div>
+                <!-- <h4>Procedure</h4>
+                <ol>
+                    <li>1. Take the sample in the sample container.</li>
+                    <li>2. Put the sample container in the sieve shaker machine.</li>
+                    <li>3. Put the sieves in the sieve shaker machine.</li>
+                    <li>4. Put the petridish in the sieve shaker machine.</li>
+                    <li>5. Start the sieve shaker machine.</li>
+                    <li>6. After the sieving is complete, take out the sieves and petridish.</li>
+                    <li>7. Take out the sample from the sample container.</li>
+                </ol>
+                <h4>Observation</h4>
+                <p>The sieves will have the sample powder in them.</p>
+                <p>The petridish will have the sample powder in it.</p>
+                <p>The sample container will be empty.</p>
+                <p>The sample powder in the sieves and petridish will be the same.</p>
+                <p>The sample powder in the sieves and petridish will be the same as the sample powder in the sample container.</p>
+                 -->
+        
             </div>
-            <img class="seive_stand" src="./images/shaking_container.png" />
-          </div>
-          <div class="controls">
-            <input type="checkbox" class="power_btn" />
-          </div>
-        </div>
-      </div>
-      <div class="seive3d">
-        <table class="net" cellspacing="0px"></table>
-        <img class="seive3dimg" src="./images/seive_3d.png" alt="" />
-      </div>
-      <!-- <div class="seives"> -->
-      <!--   <div class="seive seive1"> -->
-      <!--     <div class="seive_num">No. 10</div> -->
-      <!--     <img -->
-      <!--       src="./images/seive_flat.png" -->
-      <!--       alt="Your browser doesn't support this image" -->
-      <!--     /> -->
-      <!--   </div> -->
-      <!--   <div class="seive seive2"> -->
-      <!--     <div class="seive_num">No. 20</div> -->
-      <!--     <img -->
-      <!--       src="./images/seive_flat.png" -->
-      <!--       alt="Your browser doesn't support this image" -->
-      <!--     /> -->
-      <!--   </div> -->
-      <!--   <div class="seive seive3"> -->
-      <!--     <div class="seive_num">No. 30</div> -->
-      <!--     <img -->
-      <!--       src="./images/seive_flat.png" -->
-      <!--       alt="Your browser doesn't support this image" -->
-      <!--     /> -->
-      <!--   </div> -->
-      <!--   <div class="seive seive4"> -->
-      <!--     <div class="seive_num">No. 50</div> -->
-      <!--     <img -->
-      <!--       src="./images/seive_flat.png" -->
-      <!--       alt="Your browser doesn't support this image" -->
-      <!--     /> -->
-      <!--   </div> -->
-      <!--   <div class="seive seive5"> -->
-      <!--     <div class="seive_num">No. 100</div> -->
-      <!--     <img -->
-      <!--       src="./images/seive_flat.png" -->
-      <!--       alt="Your browser doesn't support this image" -->
-      <!--     /> -->
-      <!--   </div> -->
-      <!--   <div class="seive seive6"> -->
-      <!--     <div class="seive_num">No. 120</div> -->
-      <!--     <img -->
-      <!--       src="./images/seive_flat.png" -->
-      <!--       alt="Your browser doesn't support this image" -->
-      <!--     /> -->
-      <!--   </div> -->
-      <!-- </div> -->
-      <div class="weighing_balance">
-        <img src="./images/weight.svg" alt="" />
-        <div class="weigh_area"></div>
-        <button type="button" class="btn btn1">
-          start
-          <hr noshade color="black" size="1" />
-          stop
-        </button>
-        <button type="button" class="btn btn2">reset</button>
-        <div class="display display_off">0.000</div>
-      </div>
-      <div class="instructions"></div>
-    </div>
-    <script src="./js/weight.js"></script>
-    <script src="./js/shaker.js"></script>
-    <script src="./js/net.js"></script>
-  </body>
+        
+        <!-- Pharmacy Experiment perform -->
+            <div class="main">
+                <div id="Instructions"><p>INSTRUCTIONS: </p>
+                    <h1 id="text">Click on the weighing machine to turn on the machine </h1></div>
+                <div class="language-selector">
+                    <button class="language-btn">🌐English 
+                        <!-- <span class="dropdown-icon">▼</span> -->
+                    </button>
+                        <div class="language-dropdown" id="hidden">
+                            <a href="#" class="language-option active" data-lang="en">English</a>
+                            <a href="#" class="language-option" data-lang="hi">हिंदी (Hindi)</a>
+                        </div>
+                </div>
+                <div class="pharmacy-lab">
+                    <div class="weight_machine">
+                        <button id="On-button">ON</button>
+                        <input type="Display" id="display" >
+                        <button id="Tare-button">Tare</button>
+                    </div>
+                    <div class="Sieve-shaker-machine_basic" >
+                        <div class="shakerbtn"></div> 
+                        <div id="Shakerlight"></div>
+                    </div>
+                    <div class="Sieves"></div>
+                    <div class="Lid"></div>
+                    <div class="ptri-container">
+                        <div class="petridish" ></div>
+                        <div id="sample-to-petridish"></div>
+                        <div class="tilted-samplepowder"></div>
+                    </div>
+                    <div class="sample-container"></div>
+                    <div class="sample-powder-cap" id="powder-cap"></div>
+                  <div class="chemical-container">
+
+                      <div class="spatulla"></div>
+                      <div id="chemical-in-spatulla"></div>
+                  </div>
+                </div>   
+            </div>
+        
+            <div class="Results">
+               
+               <div class="graph">
+                   <h1>GRAPH</h1>
+               </div>
+               <div class="calculations">
+                   <h1>CALCULATIONS</h1>
+               </div>
+         </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script src="script.js"></script>
+</body>
 </html>
