@@ -1,1 +1,1 @@
-The aim of the experiment is to determine the Particle size and Particle size distribution by using sieving method
+To determine the particle size and its distribution for a given granular sample using the sieve analysis method.
