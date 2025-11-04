@@ -23,7 +23,7 @@
 9. Determine D₁₀, D₅₀, and D₉₀ from the curve.
 
 
-**Observation Table (Sample Format)**
+**Observation and data**
 
 | **Sieve No.** | **Aperture Size (µm)** | **Weight Retained (g)** | **% Retained** | **Cumulative % Retained** | **% Finer** |
 |:--------------:|-----------------------:|------------------------:|---------------:|--------------------------:|------------:|
