@@ -1,8 +1,4 @@
-# **Sieve Analysis Experiment**
-
----
-
-## **Materials Required**
+**Materials Required**
 - Set of standard sieves (e.g., 10 to 325 mesh)
 - Granular sample (e.g., sand, starch, or pharmaceutical powder)
 - Weighing balance (accuracy ±0.01 g)
@@ -12,9 +8,8 @@
 - Stopwatch or timer
 - Calculator / spreadsheet for analysis
 
----
 
-## **Procedure**
+**Procedure**
 1. Arrange the sieves in descending order (coarsest on top, finest at bottom).
 2. Weigh approximately 100 g of the dry sample.
 3. Place a collection pan under the bottom sieve.
@@ -27,9 +22,8 @@
 8. Plot a graph of log particle size (X-axis) vs. % finer (Y-axis).
 9. Determine D₁₀, D₅₀, and D₉₀ from the curve.
 
----
 
-## **Observation Table (Sample Format)**
+**Observation Table (Sample Format)**
 
 | **Sieve No.** | **Aperture Size (µm)** | **Weight Retained (g)** | **% Retained** | **Cumulative % Retained** | **% Finer** |
 |:--------------:|-----------------------:|------------------------:|---------------:|--------------------------:|------------:|
@@ -44,21 +38,18 @@
 | 100            | 150                   |                         |                |                           |             |
 | Pan            | &lt;150               |                         |                |                           |             |
 
----
 
-## **Calculations**
+**Calculations**
 - **Percentage Retained** = (Weight Retained / Total Weight) × 100  
 - **Cumulative % Passing** = 100 – Cumulative % Retained  
 - Graphically determine D₁₀, D₅₀, and D₉₀ from the plotted curve.
 
----
 
-## **Result**
+**Result** <br>
 The particle size distribution was successfully determined, and the D₁₀, D₅₀, and D₉₀ values were obtained from the graph, reflecting the range and uniformity of the sample’s particle sizes.
 
----
 
-## **Precautions**
+**Precautions**
 - Ensure sieves are clean and dry before use.  
 - Avoid overloading sieves.  
 - Maintain consistent shaking duration and motion.  
