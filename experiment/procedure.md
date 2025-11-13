@@ -1,6 +1,6 @@
-**Materials Required**
-- Set of standard sieves (e.g., 10 to 325 mesh)
+**Requirements (Instruments, Chemicals & Other)**
 - Granular sample (e.g., sand, starch, or pharmaceutical powder)
+- Set of standard sieves (e.g., 10 to 325 mesh)
 - Weighing balance (accuracy ±0.01 g)
 - Mechanical sieve shaker / manual setup
 - Brush (for cleaning sieves)
@@ -10,8 +10,8 @@
 
 
 **Procedure**
-1. Arrange the sieves in descending order (coarsest on top, finest at bottom).
-2. Weigh approximately 100 g of the dry sample.
+1. Weigh approximately 100 g of the dry sample.
+2. Arrange the sieves in descending order (coarsest on top, finest at bottom).
 3. Place a collection pan under the bottom sieve.
 4. Transfer the sample to the top sieve and secure the lid.
 5. Shake manually or mechanically for 10–15 minutes.
@@ -23,7 +23,7 @@
 9. Determine D₁₀, D₅₀, and D₉₀ from the curve.
 
 
-**Observation and data**
+<!-- **Observation and data**
 
 | **Sieve No.** | **Aperture Size (µm)** | **Weight Retained (g)** | **% Retained** | **Cumulative % Retained** | **% Finer** |
 |:--------------:|-----------------------:|------------------------:|---------------:|--------------------------:|------------:|
@@ -53,4 +53,4 @@ The particle size distribution was successfully determined, and the D₁₀, D�
 - Ensure sieves are clean and dry before use.  
 - Avoid overloading sieves.  
 - Maintain consistent shaking duration and motion.  
-- Handle sieves gently to prevent mesh damage.
+- Handle sieves gently to prevent mesh damage. ... -->
