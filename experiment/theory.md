@@ -1,11 +1,11 @@
-<b>Objectives</b><br>
+<!--  <b>Objectives</b><br>
 ● To separate particles based on size using standard test sieves.<br>
 ● To measure the mass retained on each sieve.<br>
 ● To calculate the percentage of material in different size ranges.<br>
 ● To plot a particle size distribution curve.<br>
 ● To determine characteristic diameters (D₁₀, D₅₀, D₉₀).<br>
 
-<b>Theory</b><br>
+<b>Theory</b><br> -->
 Sieve analysis is a simple and widely used method to determine the particle size distribution of granular materials. The technique involves passing a sample through a series of sieves arranged in decreasing mesh size order, from coarse to fine.<br>
 
 The sample is placed on the top sieve and subjected to mechanical or manual shaking for a specified duration. Particles are separated according to size, with larger ones retained on coarser sieves and smaller particles passing through to finer sieves.<br>
