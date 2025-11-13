@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Sieve analysis is primarily used to determine:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Density of a sample",
+        "b": "Flow rate of liquid",
+        "c": "Particle size distribution of a granular sample",
+        "d": "Moisture content in powder"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "2. In a typical sieve setup, sieves are arranged:",
+      "answers": {
+        "a": "From coarsest on top to finest at bottom",
+        "b": "From finest on top to coarsest at bottom",
+        "c": "In random order",
+        "d": "Depending on particle color"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
-      "question": "This is a Sample Question 2?",
+        {
+      "question": "3. The effectiveness of sieving depends mainly on:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Temperature of the environment",
+        "b": "Duration and intensity of shaking",
+        "c": "Color of the sieves",
+        "d": " Size of the collection pan"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "4. The unit used to describe sieve fineness is generally:",
+      "answers": {
+        "a": "Micron value only",
+        "b": "Mesh number",
+        "c": "Density unit",
+        "d": "Volume ratio"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. D₅₀ represents:",
+      "answers": {
+        "a": "10% of particles are finer than this size",
+        "b": "50% of particles are finer than this size",
+        "c": "90% of particles are finer than this size",
+        "d": "All particles are finer than this size"
+      },
+      "explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation",
+        "d": "Explanation"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
