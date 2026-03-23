@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Size Distribution using Sieveing method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container for pharmacy project to wrap all sections -->
+     <div class="container">
+        
+            <!-- Simulation start pop-up -->
+             
+            <!-- <div class="Simulation-start" id="Simulation-start">
+                <div class="start-card">
+        
+                    <h1>Particle Size Distribution Simulation </h1>
+                    <p>The experiment is ready to proceed to determine the particle size and particle size distribution by using the sieving method.
+                         This experiment will help you understand how different sized particles are separated and analyzed using standard sieves.</p>
+                   
+                    <h2>Equipment Required</h2>
+                    <ul>
+                        <li>1. Sieve shaker machine</li>
+                        <li>2. Sieves</li>
+                        <li>3. Petridish</li>
+                        <li>4. Sample container</li>
+                        <li>5. Spatulla</li>
+                    </ul>
+                    <button class="start-btn" id="start-experiment">Start</button>
+                </div> -->
+                <!-- <h4>Procedure</h4>
+                <ol>
+                    <li>1. Take the sample in the sample container.</li>
+                    <li>2. Put the sample container in the sieve shaker machine.</li>
+                    <li>3. Put the sieves in the sieve shaker machine.</li>
+                    <li>4. Put the petridish in the sieve shaker machine.</li>
+                    <li>5. Start the sieve shaker machine.</li>
+                    <li>6. After the sieving is complete, take out the sieves and petridish.</li>
+                    <li>7. Take out the sample from the sample container.</li>
+                </ol>
+                <h4>Observation</h4>
+                <p>The sieves will have the sample powder in them.</p>
+                <p>The petridish will have the sample powder in it.</p>
+                <p>The sample container will be empty.</p>
+                <p>The sample powder in the sieves and petridish will be the same.</p>
+                <p>The sample powder in the sieves and petridish will be the same as the sample powder in the sample container.</p>
+                 -->
+        
+            </div>
+        
+        <!-- Pharmacy Experiment perform -->
+            <div class="main">
+                <div id="Instructions"><p>INSTRUCTIONS: </p>
+                    <h1 id="text"> </h1></div>
+                <div class="language-selector">
+                    <button class="language-btn">🌐English 
+                        <!-- <span class="dropdown-icon">▼</span> -->
+                    </button>
+                        <div class="language-dropdown" id="hidden">
+                            <a href="#" class="language-option active" data-lang="en">English</a>
+                            <a href="#" class="language-option" data-lang="hi">हिंदी (Hindi)</a>
+                        </div>
+                </div>
+                <div class="pharmacy-lab">
+                    <div class="weight_machine">
+                        <h4>Weight Machine</h4>
+                        <button id="On-button">ON</button>
+                        <input type="Display" id="display" >
+                        <button id="Tare-button">Tare</button>
+                    </div>
+                    <div class="Sieve-shaker-machine_basic" >
+                        <div class="shakerbtn"></div> 
+                        <div id="Shakerlight"></div>
+                    </div>
+                    <div class="Sieves"><h4>Sieves</h4></div>
+                    <div class="Lid">
+                        <h4>Lid</h4>
+                    </div>
+                    <div class="ptri-container">
+                        <div class="petridish" ><h4>Petridish</h4></div>
+                        <div id="sample-to-petridish"></div>
+                        <div class="tilted-samplepowder"></div>
+                    </div>
+                    <div class="sample-container"><h4> Sample <br> Container</h4></div>
+                    <div class="sample-powder-cap" id="powder-cap"><h4>Cap</h4></div>
+                  <div class="chemical-container">
+
+                      <div class="spatulla"><h4>Spatulla</h4></div>
+                      <div id="chemical-in-spatulla"></div>
+                  </div>
+                </div>   
+            </div>
+        
+            <div class="Results">
+
+               <div class="graph">
+                   <h1>GRAPH</h1>
+               </div>
+               <div class="calculations">
+                   <h1>CALCULATIONS</h1>
+               </div>
+         </div>
+
+         <!-- Results Card -->
+         <div class="results-overlay" id="resultsOverlay">
+             <div class="results-card">
+                 <div class="results-header">
+                     <h2>🎉 Experiment Completed Successfully!</h2>
+                     <button class="close-btn" id="closeResults">×</button>
+                 </div>
+                 <div class="results-content">
+                     <h3>Particle Size Distribution - Sieving Method</h3>
+
+                     <div class="result-section">
+                         <h4>📊 Experimental Data</h4>
+                         <table class="results-table">
+                             <thead>
+                                 <tr>
+                                     <th>Parameter</th>
+                                     <th>Value</th>
+                                 </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td>Initial Sample Weight</td>
+                                     <td>100.00 g</td>
+                                 </tr>
+                                 <tr>
+                                     <td>Sieve Set Weight</td>
+                                     <td>200.00 g</td>
+                                 </tr>
+                                 <tr>
+                                     <td>Total Weight (Sample + Sieves)</td>
+                                     <td>300.00 g</td>
+                                 </tr>
+                                 <tr>
+                                     <td>Sieving Duration</td>
+                                     <td>2.5 seconds</td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>
+
+                     <div class="result-section">
+                         <h4>✅ Steps Completed</h4>
+                         <ul class="steps-list">
+                             <li>✓ Weight machine calibrated</li>
+                             <li>✓ Petridish tared and measured</li>
+                             <li>✓ Sample collected (100g)</li>
+                             <li>✓ Sieves weighed (200g)</li>
+                             <li>✓ Sample transferred to sieves</li>
+                             <li>✓ Sieve shaker machine operated</li>
+                             <li>✓ Particle size distribution completed</li>
+                         </ul>
+                     </div>
+
+                     <div class="result-section">
+                         <h4>📝 Observations</h4>
+                         <p>The sample powder has been successfully sieved through the sieve set. The particles have been separated based on their size distribution. The sieving process helps in determining the particle size range and distribution pattern of the pharmaceutical powder sample.</p>
+                     </div>
+
+                     <div class="result-section">
+                         <h4>🎯 Conclusion</h4>
+                         <p>The particle size distribution experiment using the sieving method has been completed successfully. All equipment was properly calibrated and the procedure was followed correctly.</p>
+                     </div>
+
+                     <div class="results-actions">
+                         <button class="action-btn restart-btn" id="restartExperiment">🔄 Restart Experiment</button>
+                         <button class="action-btn download-btn" id="downloadResults">📥 Download Report</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script src="script.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>

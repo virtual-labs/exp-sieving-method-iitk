@@ -1,0 +1,13 @@
+
+/home/runner/work/exp-sieving-method-iitk/exp-sieving-method-iitk/experiment/simulation/script.js
+    7:5   warning  'Lang' is assigned a value but never used                        no-unused-vars
+   81:9   warning  'currentStep' is assigned a value but never used                 no-unused-vars
+   89:14  warning  'displayWeight' is defined but never used                        no-unused-vars
+  260:7   warning  'originalLeft' is assigned a value but never used                no-unused-vars
+  261:7   warning  'originalTop' is assigned a value but never used                 no-unused-vars
+  534:5   warning  'flag' is assigned a value but never used                        no-unused-vars
+  537:8   warning  Expected a conditional expression and instead saw an assignment  no-cond-assign
+  537:8   warning  Unexpected constant condition                                    no-constant-condition
+
+✖ 8 problems (0 errors, 8 warnings)
+

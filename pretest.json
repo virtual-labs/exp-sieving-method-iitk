@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Sieve analysis is primarily used to determine:",
+      "answers": {
+        "a": "Density of a sample",
+        "b": "Flow rate of liquid",
+        "c": "Particle size distribution of a granular sample",
+        "d": "Moisture content in powder"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "2. In a typical sieve setup, sieves are arranged:",
+      "answers": {
+        "a": "From coarsest on top to finest at bottom",
+        "b": "From finest on top to coarsest at bottom",
+        "c": "In random order",
+        "d": "Depending on particle color"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "3. The effectiveness of sieving depends mainly on:",
+      "answers": {
+        "a": "Temperature of the environment",
+        "b": "Duration and intensity of shaking",
+        "c": "Color of the sieves",
+        "d": " Size of the collection pan"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "4. The unit used to describe sieve fineness is generally:",
+      "answers": {
+        "a": "Micron value only",
+        "b": "Mesh number",
+        "c": "Density unit",
+        "d": "Volume ratio"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. D₅₀ represents:",
+      "answers": {
+        "a": "10% of particles are finer than this size",
+        "b": "50% of particles are finer than this size",
+        "c": "90% of particles are finer than this size",
+        "d": "All particles are finer than this size"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

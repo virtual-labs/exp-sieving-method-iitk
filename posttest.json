@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The cumulative percentage passing through a sieve is calculated by:",
+      "answers": {
+        "a": "Adding all individual percentages retained",
+        "b": "Subtracting cumulative % retained from 100",
+        "c": "Multiplying % retained by mesh number",
+        "d": "Averaging all retained values"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+       {
+      "question": "2. If larger particles are found in the bottom sieve, it indicates:",
+      "answers": {
+        "a": "Proper sieving",
+        "b": "Improper arrangement or shaking",
+        "c": "Correct mesh size selection",
+        "d": "Sample was too dry"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "3. The shape of the particle size distribution curve is plotted between:",
+      "answers": {
+        "a": "% retained vs. mesh number",
+        "b": "Log particle size (X-axis) vs. % finer (Y-axis)",
+        "c": "Time vs. weight retained",
+        "d": "Cumulative weight vs. sieve size"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "4. The D₁₀ value from the particle size distribution curve represents:",
+      "answers": {
+        "a": "Effective diameter where 10% of particles are finer",
+        "b": "Diameter of coarsest particles",
+        "c": "Average particle size",
+        "d": "Median particle size"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "5. Which of the following steps ensures accuracy in sieving?",
+      "answers": {
+        "a": "Overloading the sieves",
+        "b": "Cleaning sieves before and after use",
+        "c": "Using wet samples",
+        "d": "Reducing sieving time"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
