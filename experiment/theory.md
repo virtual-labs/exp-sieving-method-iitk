@@ -17,4 +17,13 @@ Key parameters:<br>
 ● D₅₀ (Median Diameter): 50% of particles are finer than this size.<br>
 ● D₉₀ (Coarse Diameter): 90% of particles are finer than this size.<br>
 
-This method is widely used in pharmaceuticals, soil mechanics, food processing, and material sciences to evaluate flow properties, mixing, and dissolution rates.
+<b>Applications of Sieve Analysis in Pharmaceutics: </b> Sieve analysis is widely used in the pharmaceutical industry for,<br>
+1. Controlling particle size distribution of powders and granules <br>
+2. Ensuring uniform mixing of ingredients <br>
+3. Improving flow properties during tablet and capsule manufacturing <br>
+4. Achieving consistent drug release and dissolution behavior <br>
+
+This method is particularly useful for coarse particles, where direct separation based on size is possible.
+
+
+<!--This method is widely used in pharmaceuticals, soil mechanics, food processing, and material sciences to evaluate flow properties, mixing, and dissolution rates.
